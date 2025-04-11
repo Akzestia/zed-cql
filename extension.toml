@@ -1,0 +1,11 @@
+id = "cql"
+name = "Cql"
+description = "Cql syntax highlighting"
+version = "0.0.1"
+schema_version = 1
+authors = ["Akzestia"]
+repository = "https://github.com/Akzestia/zed-cql"
+
+[grammars.cql]
+repository = "https://github.com/Akzestia/tree-sitter-cql"
+rev = "25a948e7ed15869887ff38c974691f539f51ee60"
