@@ -1,4 +1,4 @@
-# CQL language syntax highlighting for Zed 
+# CQL language syntax highlighting for [Zed](https://zed.dev) 
 
 ----------------------------------------
 >[!TIP]
