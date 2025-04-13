@@ -8,4 +8,3 @@
 
 ✅ &nbsp; Full CQL 3.4+ support  
 ✅ &nbsp; Syntax highlighting  
-✅ &nbsp; Zed Editor integration  
