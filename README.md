@@ -8,3 +8,7 @@
 
 ✅ &nbsp; Full CQL 3.4+ support  
 ✅ &nbsp; Syntax highlighting  
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
