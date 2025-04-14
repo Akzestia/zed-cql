@@ -361,3 +361,8 @@
 ] @string.special
 
 (comment) @comment
+
+(literal
+    (integer) @number)
+(literal
+    (float) @number)
