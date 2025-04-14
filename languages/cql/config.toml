@@ -1,4 +1,4 @@
-name = "Cql"
+name = "CQL"
 grammar = "cql"
 path_suffixes = ["cql"]
 line_comments = ["-- ", "// "]
