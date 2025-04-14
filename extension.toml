@@ -8,4 +8,4 @@ repository = "https://github.com/Akzestia/zed-cql"
 
 [grammars.cql]
 repository = "https://github.com/Akzestia/tree-sitter-cql"
-rev = "dd09ddd6527b31153c281846d6cded4ec0e1a71d"
+rev = "d020cca8d952c2511a53d1e6cba60365fbdaadee"
