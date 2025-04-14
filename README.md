@@ -2,7 +2,7 @@
 
 ----------------------------------------
 >[!TIP]
-> Based on [DataStax HDC](https://docs.datastax.com/en/cql/hcd/reference/cql-reference-about.html)
+> Based on [DataStax HCD](https://docs.datastax.com/en/cql/hcd/reference/cql-reference-about.html)
 
 ## Features
 
