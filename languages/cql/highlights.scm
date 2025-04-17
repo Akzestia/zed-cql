@@ -295,6 +295,7 @@
 [
   ","
   "."
+  (semi_colon)
 ] @punctuation.delimiter
 
 [
@@ -311,7 +312,7 @@
     "-"
     "/"
     "%"
-    "*"
+    (operator_multiplication)
     (equal_sign)
 ] @operator
 
@@ -337,32 +338,78 @@
 ] @variable.special
 
 ; Types
-(cql_types_union) @type
+[
+    (cql_types_union)
+    (cql_types_constructor_list)
+    (cql_types_constructor_tuple)
+    (cql_types_constructor_map)
+    (cql_types_constructor_frozen)
+    (cql_types_constructor_set)
+] @type
 (uuid_construct) @constructor
-
-; Functions
-(func_definition) @function
-
-(func_definition
-  (identifier) @function)
-
-(func_definition
-  "*" @variable.special)
-
-(func_definition
-  (literal) @variable.special)
 
 ; Strings
 (string_literal) @string
 (quoted_identifier) @string
 
+(identifier) @variable
+
+; Embeded code blocks
 [
   "$$"
 ] @string.special
 
+; Comment
 (comment) @comment
 
+; $.float & $.integer in $.literal
 (literal
     (integer) @number)
 (literal
     (float) @number)
+
+; Integers inside identifier
+((identifier) @variable
+  (#match? @number "^[-]?[0-9]+(\\.[0-9]+([eE][+-]?[0-9]+)?)?$"))
+
+; Integers inside literal
+((literal) @constant
+  (#match? @number "^[-]?[0-9]+(\\.[0-9]+([eE][+-]?[0-9]+)?)?$"))
+
+; Bool Variables
+(bool_choice) @variable.special
+
+; Table Label
+(table_label_part) @string
+
+; Graph Engine Special Variables
+[
+    "graph_engine"
+    "'Core'"
+    "'Classic'"
+] @variable.special
+
+; Embeded JS & JAVA code
+(code_block) @embedded
+
+; Functions
+
+(func_definition) @function
+
+(func_definition
+    function_name: (identifier) @function
+    argument: [
+        (literal (identifier) @property)
+        (wild_card) @variable.special
+    ]
+)
+
+
+
+; Selectors
+(selectors
+    selector_normal:[
+        (literal (identifier) @constant)
+        (wild_card) @variable.special
+    ]
+)
