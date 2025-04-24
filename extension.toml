@@ -6,6 +6,10 @@ schema_version = 1
 authors = ["Akzestia <akzestia@gmail.com>"]
 repository = "https://github.com/Akzestia/zed-cql"
 
+[language_servers.cql]
+name = "CQL LSP"
+languages = ["CQL"]
+
 [grammars.cql]
 repository = "https://github.com/Akzestia/tree-sitter-cql"
 rev = "e8cb6629ee8ee00c76df88e6b1a9a41fd07afcab"
