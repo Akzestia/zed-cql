@@ -1,0 +1,12 @@
+[package]
+name = "zed_cql_lsp"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+path = "src/cql_lsp.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = { version = "1.0.219", features = ["derive"] }
+zed_extension_api = "0.3.0"
