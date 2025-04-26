@@ -1,1 +1,4 @@
 grammars/
+target/
+*.wasm
+*.cql
