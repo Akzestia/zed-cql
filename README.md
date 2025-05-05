@@ -9,9 +9,11 @@
 ✅ &nbsp; Full CQL 3.4+ support  
 ✅ &nbsp; Syntax highlighting  
 
-## Tree-sitter Grammar
+## Grammar && LSP
 
 🔗 [Tree-Sitter grammar for CQL](https://github.com/Akzestia/tree-sitter-cql)
+<br/>
+🔗 [cql-lsp](https://github.com/Akzestia/cql-lsp)
 
 ## License
 
