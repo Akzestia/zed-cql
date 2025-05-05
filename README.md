@@ -14,7 +14,10 @@
 ✅ &nbsp; Smart completions based on Database context </br>
 
 >[!NOTE]
-> To enable smart completions check [LSP](https://github.com/Akzestia/cql-lsp) documentation
+> To enable smart completions check [LSP](https://github.com/Akzestia/cql-lsp) documentation <br/>
+> <br/>
+> [Eng docs](https://github.com/Akzestia/cql-lsp/blob/main/README.md) <br/>
+> [日本語ドキュメント](https://github.com/Akzestia/cql-lsp/blob/main/README_jap.md) <br/>
 
 ## Grammar && LSP
 
