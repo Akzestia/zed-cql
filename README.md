@@ -1,4 +1,4 @@
-# CQL language syntax highlighting for [Zed](https://zed.dev) 
+# CQL language support for [Zed](https://zed.dev) 
 
 ----------------------------------------
 >[!TIP]
@@ -6,8 +6,12 @@
 
 ## Features
 
-✅ &nbsp; Full CQL 3.4+ support  
-✅ &nbsp; Syntax highlighting  
+✅ &nbsp; Full CQL 3.4+ support </br>
+✅ &nbsp; Syntax highlighting </br>
+✅ &nbsp; Code completion </br>
+✅ &nbsp; CQL commands completion </br>
+✅ &nbsp; Code formatting </br>
+✅ &nbsp; Smart completions based on Database context </br>
 
 ## Grammar && LSP
 
