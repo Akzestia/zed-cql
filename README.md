@@ -13,6 +13,9 @@
 ✅ &nbsp; Code formatting </br>
 ✅ &nbsp; Smart completions based on Database context </br>
 
+>[!NOTE]
+> To enable smart completions check [LSP](https://github.com/Akzestia/cql-lsp) documentation
+
 ## Grammar && LSP
 
 🔗 [Tree-Sitter grammar for CQL](https://github.com/Akzestia/tree-sitter-cql)
