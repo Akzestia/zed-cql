@@ -24,7 +24,10 @@ impl CqlLspExtension {
             return Ok(path.clone());
         }
 
-        Err("LSP wasn't found".to_owned())
+        Err(
+            "cql_lsp binary wasn't found in $PATH. Make sure cql_lsp is installed on your system.\nCheck the install instructions on Github for further information: https://github.com/Akzestia/cql-lsp"
+                .to_owned(),
+        )
     }
 }
 
