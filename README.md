@@ -1,4 +1,4 @@
-# CQL language syntax highlighting for [Zed](https://zed.dev) 
+# CQL language support for [Zed](https://zed.dev) 
 
 ----------------------------------------
 >[!TIP]
@@ -6,12 +6,31 @@
 
 ## Features
 
-✅ &nbsp; Full CQL 3.4+ support  
-✅ &nbsp; Syntax highlighting  
+✅ &nbsp; Full CQL 3.4+ support </br>
+✅ &nbsp; Syntax highlighting </br>
+✅ &nbsp; Code completion </br>
+✅ &nbsp; CQL commands completion </br>
+✅ &nbsp; Code formatting </br>
+✅ &nbsp; Smart completions based on Database context </br>
 
-## Tree-sitter Grammar
+>[!NOTE]
+> To enable smart completions check [LSP](https://github.com/Akzestia/cql-lsp) documentation <br/>
+> <br/>
+> [Eng docs](https://github.com/Akzestia/cql-lsp/blob/main/README.md) <br/>
+> [日本語ドキュメント](https://github.com/Akzestia/cql-lsp/blob/main/README_jap.md) <br/>
+
+## Grammar && LSP
 
 🔗 [Tree-Sitter grammar for CQL](https://github.com/Akzestia/tree-sitter-cql)
+<br/>
+🔗 [cql-lsp](https://github.com/Akzestia/cql-lsp)
+
+## Preview
+
+
+https://github.com/user-attachments/assets/555c8ff8-73cc-4659-a2a5-a8b308d9be63
+
+----------------------------------------
 
 ## License
 
