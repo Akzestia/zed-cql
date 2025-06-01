@@ -1,6 +1,6 @@
 id = "cql"
 name = "CQL"
-description = "CQL language syntax highlighting"
+description = "CQL support."
 version = "1.0.0"
 schema_version = 1
 authors = ["Akzestia <akzestia@gmail.com>"]
