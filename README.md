@@ -27,8 +27,7 @@
 
 ## Preview
 
-
-https://github.com/user-attachments/assets/555c8ff8-73cc-4659-a2a5-a8b308d9be63
+https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 
 ----------------------------------------
 
