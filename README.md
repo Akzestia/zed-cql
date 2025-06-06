@@ -1,4 +1,4 @@
-# CQL language support for [Zed](https://zed.dev)
+# CQL support for [Zed](https://zed.dev)
 
 ----------------------------------------
 >[!TIP]
