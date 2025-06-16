@@ -21,9 +21,9 @@
 
 ## Grammar && LSP
 
-🔗 [Tree-Sitter grammar for CQL](https://github.com/Akzestia/tree-sitter-cql)
+🔗 [Tree-Sitter grammar](https://github.com/Akzestia/tree-sitter-cql)
 <br/>
-🔗 [cql-lsp](https://github.com/Akzestia/cql-lsp)
+🔗 [Language Server](https://github.com/Akzestia/cql-lsp)
 
 ## Preview
 
