@@ -13,6 +13,18 @@
 ✅ &nbsp; Code formatting </br>
 ✅ &nbsp; Smart completions based on Database context </br>
 
+# CQL Extension vs DataGrip (CQL Support)
+
+| Feature                | cql-lsp (Open Source)              | DataGrip (JetBrains)            |
+|------------------------|------------------------------------|----------------------------------|
+| **License**            | MIT (Free)                         | Proprietary                      |
+| **Pricing**            | $0                                 | $129/year (Personal)             |
+| **CQL Completion**     | Full syntax + schema-aware         | Full syntax + schema-aware       |
+| **Live Schema Sync**   | ✅ Yes                             | ✅ Yes                           |
+| **Type Checking**      | ✅ Yes                             | ✅ Yes                           |
+| **IDE Integration**    | Zed, Neovim, any LSP-compatible    | JetBrains IDEs only              |
+| **Extensibility**      | Customizable Rust implementation   | Plugin system                    |
+
 >[!NOTE]
 > To enable smart completions check [cql-lsp](https://github.com/Akzestia/cql-lsp) documentation <br/>
 > <br/>
