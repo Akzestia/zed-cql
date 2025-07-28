@@ -12,4 +12,4 @@ languages = ["CQL"]
 
 [grammars.cql]
 repository = "https://github.com/Akzestia/tree-sitter-cql"
-rev = "2308816fff904b04307139e4119b8ebbbd28042e"
+rev = "d059d417fd9b8dc1acaeab7a9333835a5ba5ff4b"
