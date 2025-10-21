@@ -12,6 +12,11 @@
 > For bug reports, feature requiests please open issue on the language server [repository](https://github.com/Akzestia/cql-lsp) 
 > </br>
 
+## List of Supported OS
+
+- Linux
+- Mac
+
 ## Features
 
 ✅ &nbsp; Full CQL 3.4+ support </br>
@@ -54,6 +59,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
