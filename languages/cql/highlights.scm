@@ -339,6 +339,7 @@
 
 ; Types
 [
+    (outline_identifier)
     (cql_types_union)
     (cql_types_constructor_list)
     (cql_types_constructor_tuple)
@@ -360,7 +361,11 @@
 ] @string.special
 
 ; Comment
-(comment) @comment
+[
+    (line_comment_plain)
+    (line_comment_with_outline)
+    (block_comment)
+] @comment
 
 ; $.float & $.integer in $.literal
 (literal
