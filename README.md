@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 - Open Source grammar and language server (under MIT License)
 - Aiming to provide the best experience
 - Seamless Integration with Zed && Nvim
-- written in Rust :D
+- Written in Rust :D
 
 ## Grammar && Language server
 
@@ -45,3 +45,4 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
