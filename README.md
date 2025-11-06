@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 - Code formatting </br>
 - Smart completions based on Database context </br>
 
-## CQL Extension vs Corpo 
+## CQL in Zed vs Corpo 
 
 - Free
 - Open Source grammar and language server (under MIT License)
@@ -45,5 +45,6 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
