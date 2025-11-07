@@ -1,295 +1,147 @@
-; Uppercase keywords
 [
-    "ALTER"
-    "USE"
-    "WITH"
-    "CREATE"
-    "KEYSPACE"
-    "TABLE"
-    "WHERE"
-    "IF"
-    "AND"
-    "SET"
-    "IN"
-    "TO"
-    "FROM"
-    "USING"
-    "TIMESTAMP"
-    "TTL"
-    "EXISTS"
-    "NOT"
-    "TYPE"
-    "VIEW"
-    "MATERIALIZED"
-    "REPLICATION"
-    "DURABLE_WRITES"
-    "BATCH"
-    "APPLY"
-    "BEGIN"
-    "UNLOGGED"
-    "LOGGED"
-    "COUNTER"
-    "TRUNCATE"
-    "INSERT"
-    "INTO"
-    "VALUES"
-    "UPDATE"
-    "DELETE"
-    "ROLE"
-    "PASSWORD"
-    "USER"
-    "SUPERUSER"
-    "NOSUPERUSER"
-    "ADD"
-    "DROP"
-    "RENAME"
-    "COMPACT"
-    "STORAGE"
-    "CONTAINS"
-    "KEY"
-    "LOGIN"
-    "OPTIONS"
-    "OR"
-    "REPLACE"
-    "SFUNC"
-    "STYPE"
-    "FINALFUNC"
-    "INITCOND"
-    "LANGUAGE"
-    "INPUT"
-    "ON"
-    "FUNCTION"
-    "CALLED"
-    "RETURNS"
-    "FILTERING"
-    "DISTINCT"
-    "AS"
-    "KEYS"
-    "GROUP"
-    "BY"
-    "JSON"
-    "NULL"
-    "CUSTOM"
-    "AGGREGATE"
-    "ALL"
-    "ALLOW"
-    "ASC"
-    "AUTHORIZE"
-    "CLUSTERING"
-    "DESC"
-    "DESCRIBE"
-    "ENTRIES"
-    "FULL"
-    "GRANT"
-    "INDEX"
-    "KEYSPACES"
-    "LIMIT"
-    "MODIFY"
-    "NORECURSIVE"
-    "OF"
-    "ORDER"
-    "PARTITION"
-    "PER"
-    "PERMISSIONS"
-    "PRIMARY"
-    "REVOKE"
-    "SELECT"
-    "USERS"
-    "COMMIT"
-    "SEARCH"
-    "ROLES"
-    "DETERMINISTIC"
-    "MONOTONIC"
-    "JAVA"
-    "JAVASCRIPT"
-    "IS"
-    "HASHED"
-    "ACCESS"
-    "DATACENTERS"
-    "CIDRS"
-    "COLUMNS"
-    "PROFILES"
-    "CONFIG"
-    "ROWS"
-    "FUNCTIONS"
-    "MBEANS"
-    "MBEAN"
-    "PATTERN"
-    "EXECUTE"
-    "PROXY"
-    "ID"
-    "LIKE"
-    "ANN"
-    "OFFSET"
-    "LIST"
-    "COUNT"
-    "MAX"
-    "MIN"
-    "SUM"
-    "AVG"
-    "TOKEN"
-    "WRITETIME"
-    "INFINITY"
-    "NAN"
-    "STATIC"
-    "ANY"
-    "HAVING"
-    "CONSISTENCY"
-    "LEVEL"
-    "ONE"
-    "TWO"
-    "THREE"
-    "QUORUM"
-    "LOCAL_ONE"
-    "LOCAL_QUORUM"
-    "EACH_QUORUM"
-] @keyword
-
-; Lowercase keywords
-[
-    "alter"
-    "use"
-    "with"
-    "create"
-    "keyspace"
-    "table"
-    "where"
-    "if"
-    "and"
-    "set"
-    "in"
-    "to"
-    "from"
-    "using"
-    "timestamp"
-    "ttl"
-    "exists"
-    "not"
-    "type"
-    "view"
-    "materialized"
-    "replication"
-    "durable_writes"
-    "batch"
-    "apply"
-    "begin"
-    "unlogged"
-    "logged"
-    "counter"
-    "truncate"
-    "insert"
-    "into"
-    "values"
-    "update"
-    "delete"
-    "role"
-    "password"
-    "user"
-    "superuser"
-    "nosuperuser"
-    "add"
-    "drop"
-    "rename"
-    "compact"
-    "storage"
-    "contains"
-    "key"
-    "login"
-    "options"
-    "or"
-    "replace"
-    "sfunc"
-    "stype"
-    "finalfunc"
-    "initcond"
-    "language"
-    "input"
-    "on"
-    "function"
-    "called"
-    "returns"
-    "filtering"
-    "distinct"
-    "as"
-    "keys"
-    "group"
-    "by"
-    "json"
-    "null"
-    "custom"
-    "aggregate"
-    "all"
-    "allow"
-    "asc"
-    "authorize"
-    "clustering"
-    "desc"
-    "describe"
-    "entries"
-    "full"
-    "grant"
-    "index"
-    "keyspaces"
-    "limit"
-    "modify"
-    "norecursive"
-    "of"
-    "order"
-    "partition"
-    "per"
-    "permissions"
-    "primary"
-    "revoke"
-    "select"
-    "users"
-    "commit"
-    "search"
-    "roles"
-    "deterministic"
-    "monotonic"
-    "java"
-    "javascript"
-    "is"
-    "hashed"
-    "access"
-    "datacenters"
-    "cidrs"
-    "columns"
-    "profiles"
-    "config"
-    "rows"
-    "functions"
-    "mbeans"
-    "mbean"
-    "pattern"
-    "execute"
-    "proxy"
-    "id"
-    "like"
-    "ann"
-    "offset"
-    "list"
-    "count"
-    "max"
-    "min"
-    "sum"
-    "avg"
-    "token"
-    "writetime"
-    "infinity"
-    "nan"
-    "static"
-    "any"
-    "having"
-    "consistency"
-    "level"
-    "one"
-    "two"
-    "three"
-    "quorum"
-    "local_one"
-    "local_quorum"
-    "each_quorum"
+    (kw_use)
+    (kw_alter)
+    (kw_create)
+    (kw_keyspace)
+    (kw_table)
+    (kw_with)
+    (kw_where)
+    (kw_if)
+    (kw_and)
+    (kw_set)
+    (kw_in)
+    (kw_to)
+    (kw_from)
+    (kw_using)
+    (kw_timestamp)
+    (kw_ttl)
+    (kw_exists)
+    (kw_not)
+    (kw_type)
+    (kw_view)
+    (kw_materialized)
+    (kw_replication)
+    (kw_durable_writes)
+    (kw_batch)
+    (kw_apply)
+    (kw_begin)
+    (kw_unlogged)
+    (kw_logged)
+    (kw_counter)
+    (kw_truncate)
+    (kw_insert)
+    (kw_into)
+    (kw_values)
+    (kw_update)
+    (kw_delete)
+    (kw_role)
+    (kw_password)
+    (kw_user)
+    (kw_superuser)
+    (kw_nosuperuser)
+    (kw_add)
+    (kw_drop)
+    (kw_rename)
+    (kw_compact)
+    (kw_storage)
+    (kw_contains)
+    (kw_key)
+    (kw_login)
+    (kw_options)
+    (kw_or)
+    (kw_replace)
+    (kw_sfunc)
+    (kw_stype)
+    (kw_final_func)
+    (kw_init_cond)
+    (kw_language)
+    (kw_input)
+    (kw_on)
+    (kw_function)
+    (kw_called)
+    (kw_returns)
+    (kw_filtering)
+    (kw_distinct)
+    (kw_as)
+    (kw_keys)
+    (kw_group)
+    (kw_by)
+    (kw_json)
+    (kw_null)
+    (kw_custom)
+    (kw_aggregate)
+    (kw_all)
+    (kw_allow)
+    (kw_asc)
+    (kw_authorize)
+    (kw_clustering)
+    (kw_desc)
+    (kw_describe)
+    (kw_entries)
+    (kw_full)
+    (kw_grant)
+    (kw_index)
+    (kw_keyspaces)
+    (kw_limit)
+    (kw_modify)
+    (kw_norecursive)
+    (kw_of)
+    (kw_order)
+    (kw_partition)
+    (kw_per)
+    (kw_permissions)
+    (kw_primary)
+    (kw_revoke)
+    (kw_select)
+    (kw_users)
+    (kw_commit)
+    (kw_search)
+    (kw_roles)
+    (kw_deterministic)
+    (kw_monotonic)
+    (kw_java)
+    (kw_java_script)
+    (kw_is)
+    (kw_hashed)
+    (kw_access)
+    (kw_dcs)
+    (kw_cidrs)
+    (kw_columns)
+    (kw_profiles)
+    (kw_config)
+    (kw_rows)
+    (kw_functions)
+    (kw_mbeans)
+    (kw_mbean)
+    (kw_pattern)
+    (kw_execute)
+    (kw_proxy)
+    (kw_id)
+    (kw_like)
+    (kw_ann)
+    (kw_offset)
+    (kw_list)
+    (kw_token)
+    (kw_writetime)
+    (kw_count)
+    (kw_max)
+    (kw_min)
+    (kw_sum)
+    (kw_avg)
+    (kw_any)
+    (kw_nan)
+    (kw_infinity)
+    (kw_static)
+    (kw_consistency)
+    (kw_level)
+    (kw_local_one)
+    (kw_local_quorum)
+    (kw_quorum)
+    (kw_each_quorum)
+    (kw_one)
+    (kw_two)
+    (kw_three)
+    (kw_having)
 ] @keyword
 
 [
@@ -337,9 +189,7 @@
     (selectors)
 ] @variable.special
 
-; Types
 [
-    (outline_identifier)
     (cql_types_union)
     (cql_types_constructor_list)
     (cql_types_constructor_tuple)
@@ -349,55 +199,41 @@
 ] @type
 (uuid_construct) @constructor
 
-; Strings
 (string_literal) @string
 (quoted_identifier) @string
 
 (identifier) @variable
 
-; Embeded code blocks
 [
   "$$"
 ] @string.special
 
-; Comment
 [
-    (line_comment_plain)
-    (line_comment_with_outline)
+    (line_comment)
     (block_comment)
 ] @comment
 
-; $.float & $.integer in $.literal
 (literal
     (integer) @number)
 (literal
     (float) @number)
 
-; Integers inside identifier
 ((identifier) @variable
   (#match? @number "^[-]?[0-9]+(\\.[0-9]+([eE][+-]?[0-9]+)?)?$"))
 
-; Integers inside literal
 ((literal) @constant
   (#match? @number "^[-]?[0-9]+(\\.[0-9]+([eE][+-]?[0-9]+)?)?$"))
 
-; Bool Variables
 (bool_choice) @variable.special
 
-; Table Label
 (table_label_part) @string
 
-; Graph Engine Special Variables
 [
-    "graph_engine"
-    "'Core'"
-    "'Classic'"
+    (graph_engine)
+    (graph_engine_type)
 ] @variable.special
 
-; Embeded JS & JAVA code
 (code_block) @embedded
-
-; Functions
 
 (func_definition) @function
 
@@ -409,9 +245,6 @@
     ]
 )
 
-
-
-; Selectors
 (selectors
     selector_normal:[
         (literal (identifier) @constant)
