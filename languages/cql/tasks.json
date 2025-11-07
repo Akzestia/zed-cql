@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Execute query",
+    "command": "wq-zed query --query \"$ZED_SELECTED_TEXT\" \"$ZED_WORKTREE_ROOT\"",
+    "hide": "always",
+    "reveal": "never",
+    "reveal_target": "dock",
+    "use_new_terminal": false
+  }
+]
