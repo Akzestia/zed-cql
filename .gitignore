@@ -2,3 +2,4 @@ grammars/
 target/
 *.wasm
 *.cql
+.pw.cql.md
