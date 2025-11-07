@@ -43,11 +43,13 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## Grammar && Language server
 
 - [Tree-Sitter grammar](https://github.com/Akzestia/tree-sitter-cql)
-- [Language Server](https://github.com/Akzestia/cql-lsp)
+- [Language Server](https://github.com/Akzestia/cqlls)
+- [Preview Tool](https://github.com/Akzestia/wq)
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
