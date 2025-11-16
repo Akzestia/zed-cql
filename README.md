@@ -1,10 +1,9 @@
 # CQL support for [Zed](https://zed.dev)
 
-[Read Setup Process](/docs/README.md)
-
 https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 
 >[!TIP]
+> [Read Setup Process](/docs/README.md) </br>
 > Based on [DataStax HCD](https://docs.datastax.com/en/cql/hcd/reference/cql-reference-about.html)
 
 >[!IMPORTANT]
@@ -51,6 +50,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
