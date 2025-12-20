@@ -1,7 +1,7 @@
 # CQL support for [Zed](https://zed.dev)
 
 > [!TIP]
-> Now also available in [Nvim](https://github.com/Akzestia/nvim-cql-v2.git) 
+> Now also available in [NeoVim](https://github.com/Akzestia/nvim-cql-v2.git) 
 
 https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 
@@ -53,6 +53,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
