@@ -3,75 +3,89 @@
     "prefix": "ca",
     "body": [
       "CREATE AGGREGATE $1($2)\n\tSFUNC $3\n\tSTYPE $4\n\tFINALFUNC $5\nINITCOND ($6);"
-    ]
+    ],
+    "description": "Create a custom aggregate function with state, transition, and final functions"
   },
 
   "Create function": {
     "prefix": "cf",
     "body": [
       "CREATE OR REPLACE FUNCTION $1 ($2)\n\t\n\\$\\$ /* Embeded lang(JS, Java etc.) */ \\$\\$;"
-    ]
+    ],
+    "description": "Create or replace a user-defined function"
   },
 
   "Create index": {
     "prefix": "ci",
-    "body": ["CREATE INDEX ON $1 ($2);"]
+    "body": ["CREATE INDEX ON $1 ($2);"],
+    "description": "Create an index on one or more table columns"
   },
 
   "Create role": {
     "prefix": "cr",
-    "body": ["CREATE ROLE IF NOT EXISTS $1\nWITH LOGIN = $2\nAND $3 = $4;"]
+    "body": ["CREATE ROLE IF NOT EXISTS $1\nWITH LOGIN = $2\nAND $3 = $4;"],
+    "description": "Create a role with login and configurable role attributes"
   },
 
   "Create search index": {
     "prefix": "csi",
-    "body": ["CREATE SEARCH INDEX IF NOT EXISTS ON $1\nWITH $2 = $3;"]
+    "body": ["CREATE SEARCH INDEX IF NOT EXISTS ON $1\nWITH $2 = $3;"],
+    "description": "Create a search index for full-text or advanced querying"
   },
 
   "Create table": {
     "prefix": "ct",
-    "body": ["CREATE TABLE IF NOT EXISTS $1 (\n\t$2\n);"]
+    "body": ["CREATE TABLE IF NOT EXISTS $1 (\n\t$2\n);"],
+    "description": "Create a new table if it does not already exist"
   },
 
   "Create type": {
     "prefix": "cty",
-    "body": ["CREATE TYPE IF NOT EXISTS $1 (\n\t$2\n);"]
+    "body": ["CREATE TYPE IF NOT EXISTS $1 (\n\t$2\n);"],
+    "description": "Create a custom user-defined data type"
   },
 
   "Create user": {
     "prefix": "cu",
-    "body": ["CREATE USER IF NOT EXISTS $1;"]
+    "body": ["CREATE USER IF NOT EXISTS $1;"],
+    "description": "Create a database user if it does not already exist"
   },
 
   "Create materialized view": {
     "prefix": "cmv",
-    "body": ["CREATE MATERIALIZED VIEW IF NOT EXISTS $1\nAS SELECT $2"]
+    "body": ["CREATE MATERIALIZED VIEW IF NOT EXISTS $1\nAS SELECT $2"],
+    "description": "Create a materialized view based on a SELECT query"
   },
 
   "Create keyspace": {
     "prefix": "ck",
     "body": [
       "CREATE KEYSPACE IF NOT EXISTS $1\nWITH REPLICATION = {\n\t'class' : '$2',\n\t'replication_factor' : 1$3\n};"
-    ]
+    ],
+    "description": "Create a keyspace with specified replication settings"
   },
 
   "Begin Batch": {
     "prefix": "bb",
-    "body": ["BEGIN BATCH\n\n$1\n\nAPPLY BATCH;"]
+    "body": ["BEGIN BATCH\n\n$1\n\nAPPLY BATCH;"],
+    "description": "Execute multiple statements as a single batch operation"
   },
 
   "list permissions": {
     "prefix": "lp",
-    "body": ["LIST ALL PERMISSIONS$1;"]
+    "body": ["LIST ALL PERMISSIONS$1;"],
+    "description": "List all permissions, optionally filtered by role or resource"
   },
 
   "List roles": {
     "prefix": "lr",
-    "body": ["LIST ROLES$1;"]
+    "body": ["LIST ROLES$1;"],
+    "description": "List all roles, optionally including detailed information"
   },
 
   "List users": {
     "prefix": "lu",
-    "body": ["LIST USERS;"]
+    "body": ["LIST USERS;"],
+    "description": "List all users in the system"
   }
 }
