@@ -142,6 +142,9 @@
     (kw_two)
     (kw_three)
     (kw_having)
+    (kw_vertex)
+    (kw_edge)
+    (kw_label)
 ] @keyword
 
 [
