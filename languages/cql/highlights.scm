@@ -142,9 +142,13 @@
     (kw_two)
     (kw_three)
     (kw_having)
-    (kw_vertex)
-    (kw_edge)
-    (kw_label)
+] @keyword
+
+; not recognized nodes
+[
+  "VERTEX"
+  "EDGE"
+  "LABEL"
 ] @keyword
 
 [
