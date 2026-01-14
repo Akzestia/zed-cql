@@ -3,6 +3,9 @@
 > [!TIP]
 > Now also available in [NeoVim](https://github.com/Akzestia/nvim-cql-v2.git) 
 
+> [!TIP]
+> CQL is now supported by GitHub | [github-linguist v9.4.0](https://github.com/github-linguist/linguist/releases/tag/v9.4.0)
+
 https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 
 >[!TIP]
@@ -54,6 +57,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
