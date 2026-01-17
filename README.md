@@ -15,7 +15,7 @@
 > ALTER MATERIALIZED VIEW cycling.cyclist_by_age
 > WITH compression = {
 >    'sstable_compression' : 'DeflateCompressor',
->   'chunk_length_kb' : 64
+>    'chunk_length_kb' : 64
 > }
 > AND compaction = {
 >    'class' : 'SizeTieredCompactionStrategy',
@@ -80,6 +80,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
