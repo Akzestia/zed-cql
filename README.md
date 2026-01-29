@@ -1,39 +1,39 @@
 # CQL support for [Zed](https://zed.dev)
 
 > [!TIP]
-> Now also available in [NeoVim](https://github.com/Akzestia/nvim-cql-v2.git) 
+> Now also available in [NeoVim](https://github.com/Akzestia/nvim-cql-v2.git)
+>[!TIP]
+> Read [Setup Process](/docs/README.md) </br>
+> Based on [DataStax HCD](https://docs.datastax.com/en/cql/hcd/reference/cql-reference-about.html)
 
 > [!TIP]
 > CQL is now supported by GitHub | [github-linguist v9.4.0](https://github.com/github-linguist/linguist/releases/tag/v9.4.0)
 > Example using `cql` instad of `sql`
 > ```cql
-> ALTER MATERIALIZED VIEW cycling.cyclist_by_age
-> ALTER MATERIALIZED VIEW cycling.cyclist_by_age
-> WITH comment = 'A most excellent and useful view'
-> AND bloom_filter_fp_chance = 0.02;
-> 
-> ALTER MATERIALIZED VIEW cycling.cyclist_by_age
-> WITH compression = {
->    'stable_compression' : 'DeflateCompressor',
->    'chunk_length_kb' : 64
-> }
-> AND compaction = {
->    'class' : 'SizeTieredCompactionStrategy',
->    'max_threshold' : 64
-> };
+> USE "zed";
 >
-> ALTER MATERIALIZED VIEW cycling.cyclist_by_age
-> WITH caching = {
->    'keys' : 'NONE',
->    'rows_per_partition' : '15'
-> };
+> CREATE TABLE zed.settings (
+>     user_id             UUID PRIMARY KEY,
+>     user_name           TEXT,
+>     theme:              TEXT,
+>     AI_features:        BOOLEAN
+> );
+>
+> INSERT INTO settings (
+>     user_id,
+>     user_name,
+>     theme,
+>     AI_features
+> )
+> VALUES (
+>     uuid(),
+>     "アクゼスティア",
+>     "Catppuccin Espresso",
+>     false
+> );
 > ```
 
 https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
-
->[!TIP]
-> Read [Setup Process](/docs/README.md) </br>
-> Based on [DataStax HCD](https://docs.datastax.com/en/cql/hcd/reference/cql-reference-about.html)
 
 >[!IMPORTANT]
 > Want more frequent updates? Support the project on Patreon - it helps me ship features faster and keep the lights on. ^_^  
@@ -80,6 +80,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
