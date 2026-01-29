@@ -1,14 +1,14 @@
 id = "cql"
 name = "CQL"
 description = "CQL support."
-version = "2.0.2"
+version = "3.0.0"
 schema_version = 1
 authors = ["Akzestia <akzestia@gmail.com>"]
 repository = "https://github.com/Akzestia/zed-cql"
 snippets = "snippets.json"
 
 [language_servers.cql]
-name = "CQL LSP"
+name = "cqlls"
 languages = ["CQL"]
 
 [grammars.cql]
