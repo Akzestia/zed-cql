@@ -7,21 +7,28 @@ A few things you should do after installing the extension.
 You can easily install language server using cargo
 
 ```sh
-cargo install cql_lsp
+cargo install cqlls
 ```
 
 Aftter installing the language server make sure to add the following environment variables to your shell config
 
 ```sh
+# Adds cqlls to your path
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# Replace with your ip, user, password. 
+# Env variables used by the language server
+
+# Db related
 export CQL_LSP_DB_URL="172.17.0.2"
 export CQL_LSP_DB_PASSWD="cassandra"
 export CQL_LSP_DB_USER="cassandra"
+export CQL_LSP_TLS_MODE="none|tls"
+export CQL_LSP_TLS_CA_CERT_FILE=""
 
-# Those 2 variables are only used for changing formatting behaviour
+# Logging and debugging
 export CQL_LSP_ENABLE_LOGGING="false"
+
+# Formatting related settings
 export CQL_LSP_TYPE_ALIGNMENT_OFFSET="7"
 ```
 
