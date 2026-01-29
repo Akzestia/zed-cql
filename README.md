@@ -66,8 +66,8 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## CQL in Zed vs Corpo 
 
 - Free
-- Open Source grammar and language server (under MIT License)
-- Aiming to provide the best experience
+- The best open-source grammar and language server (under MIT License)
+- Best possible experience
 - Seamless Integration with Zed
 - Written in Rust :D
 
@@ -80,6 +80,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
