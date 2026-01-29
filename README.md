@@ -2,7 +2,8 @@
 
 > [!TIP]
 > Now also available in [NeoVim](https://github.com/Akzestia/nvim-cql-v2.git)
->[!TIP]
+
+> [!TIP]
 > Read [Setup Process](/docs/README.md) </br>
 > Based on [DataStax HCD](https://docs.datastax.com/en/cql/hcd/reference/cql-reference-about.html)
 
@@ -80,6 +81,7 @@ https://github.com/user-attachments/assets/780f9005-d571-489d-93e3-e61f91dcb0fe
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
 
 
