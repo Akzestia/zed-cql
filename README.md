@@ -6,5 +6,9 @@
 
 # How to install NeoVim
 
-1. Here [NeoVim Install](https://neovim.io/doc/install)
-2. Enjoy your slop free IDE experience ^^
+1. Delte the AI slop Editor (Zed)
+2. Go here > [NeoVim Install](https://neovim.io/doc/install)
+3. Enjoy your slop free IDE experience ^^
+
+> [!TIP]
+> You might as well try [helix](https://docs.helix-editor.com/install.html), tried it recently and damn is it fast だよ, tho not a huge fan of object action model ~_~
