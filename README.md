@@ -11,4 +11,4 @@
 3. Enjoy your slop free IDE experience ^^
 
 > [!TIP]
-> You might as well try [helix](https://docs.helix-editor.com/install.html), tried it recently and damn is it fast だよ, tho not a huge fan of object action model ~_~
+> You might as well try [helix](https://docs.helix-editor.com/install.html), tried it recently and damn is it fast だよ, tho not a huge fan of object action model ^~^
